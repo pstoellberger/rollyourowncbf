@@ -102,6 +102,7 @@ description: main build file for pentaho  . .
 				<!-- Unlike properties, filters are overwritten, so we invert the order of the files -->
 				<filtersfile file="${config.properties.default.path}"/>
 				<filtersfile file="${config.properties.path}"/>
+				    <filter token="BASE_URL" value="${BASE_URL}"/>
 			</filterset>
 		</copy>
 
