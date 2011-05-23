@@ -103,6 +103,8 @@ description: main build file for pentaho  . .
 				<filtersfile file="${config.properties.default.path}"/>
 				<filtersfile file="${config.properties.path}"/>
 				    <filter token="BASE_URL" value="${BASE_URL}"/>
+                                    <filter token="PUBLISH_PASSWORD" value="${PUBLISH_PASSWORD}"/>
+
 			</filterset>
 		</copy>
 
