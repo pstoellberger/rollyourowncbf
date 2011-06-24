@@ -104,6 +104,11 @@ description: main build file for pentaho  . .
 				<filtersfile file="${config.properties.path}"/>
 				    <filter token="BASE_URL" value="${BASE_URL}"/>
                                     <filter token="PUBLISH_PASSWORD" value="${PUBLISH_PASSWORD}"/>
+                                    <filter token="HIBERNATE_JDBC_URL" value="${HIBERNATE_JDBC_URL}"/>
+                                    <filter token="QUARTZ_JDBC_URL" value="${QUARTZ_JDBC_URL}"/>
+                                    <filter token="JDBC_DRIVER" value="${JDBC_DRIVER}"/>
+                                    <filter token="FILENAME" value="${FILENAME}"/>
+                                    <filter token="HSQL_DIALECT" value="${HSQL_DIALECT}"/>
 
 			</filterset>
 		</copy>
