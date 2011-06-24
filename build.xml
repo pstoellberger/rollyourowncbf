@@ -109,7 +109,8 @@ description: main build file for pentaho  . .
                                     <filter token="JDBC_DRIVER" value="${JDBC_DRIVER}"/>
                                     <filter token="FILENAME" value="${FILENAME}"/>
                                     <filter token="HSQL_DIALECT" value="${HSQL_DIALECT}"/>
-
+                                    <filter token="TRUSTED_IP" value="${TRUSTED_IP}"/>
+                                    <filter token="TOMCAT_PORT" value="${TOMCAT_PORT}"/>
 			</filterset>
 		</copy>
 
